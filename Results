@@ -1,0 +1,57 @@
+# New_cases  Cumulative_cases     New_deaths  Cumulative_deaths
+count  3.384360e+05      3.384360e+05  338436.000000       3.384360e+05
+mean   2.281237e+03      1.552443e+06      20.639879       1.856271e+04
+std    3.832306e+04      7.000750e+06     164.174396       7.722976e+04
+min   -6.507900e+04      0.000000e+00   -3520.000000       0.000000e+00
+25%    0.000000e+00      2.886000e+03       0.000000       2.100000e+01
+50%    0.000000e+00      3.810300e+04       0.000000       4.130000e+02
+75%    1.370000e+02      4.542655e+05       1.000000       6.019000e+03
+max    6.966046e+06      1.034368e+08   44047.000000       1.144877e+06
+
+#New Cases:
+The average number of new cases reported is approximately 2,281.
+The minimum recorded value is -65,079, which might indicate data corrections or adjustments.
+The maximum recorded value is 6,966,046, representing a significant spike in cases.
+#Cumulative Cases:
+The average cumulative cases stand at approximately 1,552,443.
+The minimum number of cumulative cases is 0, likely at the beginning of the pandemic.
+The maximum cumulative cases is 103,436,800, reflecting the global impact.
+#New Deaths:
+The average number of new deaths reported daily is around 20.64.
+The minimum recorded value is -3,520, which could be due to data corrections.
+The maximum recorded value is 44,047, indicating a severe day in terms of fatalities.
+#Cumulative Deaths:
+The average cumulative deaths are approximately 18,562.
+The minimum cumulative deaths are 0, likely at the start of the pandemic.
+The maximum cumulative deaths are 1,144,877, reflecting the global toll.
+
+#Total Cumulative Cases as of 2023-11-30: 772052752
+#Total Cumulative Deaths as of 2023-11-30: 6985278
+
+#As of November 30, 2023, the total cumulative cases of COVID-19 worldwide stand at 772,052,752,
+and the total cumulative deaths attributed to the virus are 6,985,2781. These numbers reflect the global impact of the pandemic up to that date.
+
+ #                  New_cases  Cumulative_cases  New_deaths  Cumulative_deaths
+New_cases           1.000000          0.170485    0.273210           0.129133
+Cumulative_cases    0.170485          1.000000    0.210564           0.807102
+New_deaths          0.273210          0.210564    1.000000           0.293954
+Cumulative_deaths   0.129133          0.807102    0.293954           1.000000
+
+#New Cases vs. Cumulative Cases:
+The correlation coefficient is approximately 0.17, indicating a weak positive correlation. This means that as new cases increase,
+cumulative cases tend to increase slightly. However, the relationship is not very strong.
+
+#New Cases vs. New Deaths:
+The correlation coefficient is around 0.27, suggesting a weak positive correlation. When new cases rise,
+new deaths also tend to increase slightly. Again, this relationship is not very strong.
+
+#Cumulative Cases vs. Cumulative Deaths:
+The correlation coefficient is approximately 0.81, indicating a strong positive correlation. As cumulative cases increase,
+cumulative deaths also rise significantly. This strong relationship highlights the impact of the pandemic on mortality.
+
+#New Deaths vs. Cumulative Deaths:
+The correlation coefficient is about 0.29, showing a moderate positive correlation. When new deaths occur, 
+cumulative deaths tend to increase moderately. This relationship is more pronounced than the others.
+
+#In summary, there is a clear association between cumulative cases and cumulative deaths,
+while the relationships between new cases, new deaths, and cumulative cases are less pronounced
